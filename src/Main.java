@@ -15,12 +15,14 @@ public class Main {
         System.out.println("Книга " + theMasterAndMargarita.getTitle());
         System.out.println("Автор " + theMasterAndMargarita.getAuthor());
         System.out.println("Год публикации " + theMasterAndMargarita.getPublishingYear());
+        System.out.println(theMasterAndMargarita.toString());
         System.out.println();
 
         Book theLittlePrince = new Book("The Little Prince", antoineDeSaintExupery.toString(), 1943);
         System.out.println("Книга " + theLittlePrince.getTitle());
         System.out.println("Автор " + theLittlePrince.getAuthor());
         System.out.println("Год публикации " + theLittlePrince.getPublishingYear());
+        System.out.println(theLittlePrince.toString());
 
 
     }
